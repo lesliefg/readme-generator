@@ -48,4 +48,3 @@ A way to create a base README for any project you want! You can go through the p
 
 ## Tutorial
 - Link to tutorial [https://drive.google.com/file/d/1phO3wRGgtxOrFiUBqqFQZYdN7ZfvX639/view]
-[![Watch the video](./assets/tutorial.webm)](./assets/tutorial.webm)
