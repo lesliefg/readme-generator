@@ -15,11 +15,20 @@ A way to create a base README for any project you want! You can go through the p
 
 ## Installation
 - Follow this link to repo to view code, comments and clone the repo [https://github.com/lesliefg/readme-generator]
-- Tutorial video on how to use it [tba]
+ ### Make sure to have the following things installed
+ * VS Code
+ * GitBash
+ * Node.js
+
+ ### Then follow these steps to install the project
+ 1. Follow the Github repo link under Usage
+ 2. Clone the repo using Gitbash with the command "git clone (link)" OR download the entire repo as a zip file.
+ 3. Once open in VS Code, install NPM using "npm init -y" in the terminal
+ 4. Lastly install inquirer using "npm install inquirer" in the terminal. 
 
 ## Usage
+- Once the project is installed and all packages downloaded, use the command "node ./index.js" to run the prompts"
 - Github repo link [https://github.com/lesliefg/readme-generator]
-- Tutorial [tba]
 - Use to create your own base README in a matter of minutes
 
 ## License
@@ -35,7 +44,8 @@ A way to create a base README for any project you want! You can go through the p
 - Inquirer prompt types and other info [https://www.npmjs.com/package/inquirer]
 
 ## Features
-- Create a base README using the prompts from NodeJS
+- Create a base README using the prompts from NodeJS using inquirer
 
 ## Tutorial
-- Link to tutorial one last time in case you missed it :] [tba]
+- Link to tutorial [https://drive.google.com/file/d/1phO3wRGgtxOrFiUBqqFQZYdN7ZfvX639/view]
+[![Watch the video](./assets/tutorial.webm)]
