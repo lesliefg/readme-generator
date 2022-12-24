@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// If there is no license, return an empty string
+// If there is no license, return an empty string otherwise we add a license badge to our README
 function renderLicenseBadge(license) {
     if (!license) {
         return ``;
@@ -22,7 +22,6 @@ function renderLicenseLink(license) {
     }
 }
 
-// TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (!license) {
@@ -33,6 +32,7 @@ function renderLicenseSection(license) {
       }
 }
 
+//This adds a label to our table of contents if a license is selected
 function renderLicenseInTableOfContents(license) {
     if(!license) {
         return ``;
@@ -41,7 +41,7 @@ function renderLicenseInTableOfContents(license) {
     }
 }
 
-// TODO: Create a function to generate markdown for README
+//This function will generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
