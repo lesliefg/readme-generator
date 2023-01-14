@@ -27,7 +27,7 @@ A way to create a base README for any project you want! You can go through the p
  4. Lastly install inquirer using "npm install inquirer" in the terminal. 
 
 ## Usage
-- Once the project is installed and all packages downloaded, use the command "node ./index.js" to run the prompts"
+- Once the project is installed and all packages downloaded, use the command "node ./index.js" to run the prompts
 - Github repo link [https://github.com/lesliefg/readme-generator]
 - Use to create your own base README in a matter of minutes
 
